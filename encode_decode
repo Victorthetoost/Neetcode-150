@@ -11,3 +11,4 @@ class Solution:
         #break the string apart based on -
         string = s.split("-") [1:]
         return string
+cc
