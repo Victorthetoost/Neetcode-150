@@ -15,6 +15,7 @@ class Solution:
                 else: break
                 j = j + 1
             j = i - 1
+            #left:
             while j >= 0 :
                 if heights[j] >= heights[i]:
                     area = area + heights[i]
